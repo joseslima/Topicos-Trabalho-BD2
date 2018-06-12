@@ -129,11 +129,16 @@ https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/ModeloFisico.sql
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 
 Pessoa:
-![Alt text](https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/Imagens/Selects/Pessoa.png  "Modelo Lógico")
 
+![Alt text](https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/Imagens/Selects/Pessoa.png  "Select Pessoa")
 
+Contratante:
 
+![Alt text](https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/Imagens/Selects/Contratante.png "Select Contratante")
 
+Vaga:
+
+![Alt text](https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/Imagens/Selects/Vaga.png "Select Vaga")
 
 
 #### 9.1	GERACAO DE DADOS (MÍNIMO DE 10 REGISTROS PARA CADA TABELA NO BANCO DE DADOS)<br>
