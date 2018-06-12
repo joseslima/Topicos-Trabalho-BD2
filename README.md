@@ -127,6 +127,12 @@ https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/ModeloFisico.sql
    
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
+
+####Pessoa
+![Alt text] (https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/Imagens/Selects/Pessoa.png "Select Pessoa")
+
+
+
 #### 9.1	GERACAO DE DADOS (MÍNIMO DE 10 REGISTROS PARA CADA TABELA NO BANCO DE DADOS)<br>
 
 ## Data de Entrega: (18/05/2018)
