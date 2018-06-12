@@ -128,8 +128,11 @@ https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/ModeloFisico.sql
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 
-####Pessoa
-![Alt text] (https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/Imagens/Selects/Pessoa.png "Select Pessoa")
+Pessoa:
+![Alt text](https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/Imagens/Selects/Pessoa.png  "Modelo Lógico")
+
+
+
 
 
 
