@@ -35,13 +35,19 @@ DICA:
 # Sumário
 
 ### 1	COMPONENTES<br>
-Integrantes do grupo<br>
+Gary Moura Silva e José Guilherme Silva de Lima<br>
 
 ### 2	INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+Este documento contém a especificação do projeto do banco de dados Vagas Dev-ES. 
+A motivação para o desenvolvimento desse projeto veio através do desejo de possuir um projeto "real", com um cliente "real", saindo um pouco do ambiente acadêmico em que nos encontramos. Através da plataforma "Slack" entramos em contato com a comunidade de desenvolvedores do espiríto santo (Dev-Es), e pedimos que nos fornecessem alguma demanda. A escolhida foi a de Vagas, descrita no minimundo abaixo.
+
+<br>
       
 ### 3	MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
+A comunidade de desenvolvedores do Espírito Santo, assim como outras comunidades pelo Brasil, utiliza um repositório no GitHub para divulgação de vagas de emprego e prestação de serviços de desenvolvimento de software. Devido à baixa adesão de empregadores, principalmente no Espírito Santo, é necessário um sistema que sirva de interface entre o(s) repositório(s) e os empregadores, permitindo a criação e controle de vagas e a interação com os desenvolvedores, bem como uma ferramenta de busca avançada, que usará a base de informações oferecida pelo GitHub para encontrar desenvolvedores que sejam compatíveis com a vaga criada.
+Os contratantes irão se cadastrar no sistema, fornecendo alguns de seus dados (email, nome fantasia e endereço), e terão acesso a um perfil pessoal, onde poderão gerenciar vagas ou buscar desenvolvedores nas suas listas de espera e de favoritos. Para criar uma nova vaga, bastará fornecer algumas informações para a sua descrição, sendo elas Título, Benefícios, Descrição, Requisitos, Diferenciais, Local e Como se Candidatar, e escolher em que repositórios desejam que essa vaga apareça. Após criar uma vaga, o contratante terá acesso a todas as respostas de desenvolvedores interessados e a um pequeno relatório sobre cada um deles. Poderão também acessar os seus perfis no GitHub, adicioná-los à lista de favoritos ou a lista de espera (para essa respectiva vaga) e contratá-los.
+Os desenvolvedores não precisarão fazer um cadastro no sistema, só será necessário ter uma conta no GitHub. Através do GitHub, ou da home page do Vagas, poderão abrir repositórios que estão cadastrados no sistema e procurar vagas que os interessem. Para se candidatar a uma das vagas, basta responder a sua Issue, de acordo com o que é pedido na descrição da mesma.
+ <br>
 
 ### 4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
