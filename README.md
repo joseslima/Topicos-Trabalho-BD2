@@ -115,18 +115,16 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ### 6	MODELO LÓGICO<br>
 ![Alt text](https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/Imagens/VagasL%C3%B3gico.png "Modelo Lógico")
 ### 7	MODELO FÍSICO<br>
+
+https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/ModeloFisico.sql
+
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a:
-        a) obtenção dos dados
-        b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
+       Os dados inseridos na tabela foram gerados através do Sistema Datanamic Data Generator.
+       Link: https://www.postgresql.org/about/news/1448/
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS (ARQUIVO ÚNICO COM):
-        a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
-        b) inclusão das instruções de inserção dos dados nas referidas tabelas
-        c) inclusão das instruções para execução de outros procedimentos necessários
+   
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	GERACAO DE DADOS (MÍNIMO DE 10 REGISTROS PARA CADA TABELA NO BANCO DE DADOS)<br>
