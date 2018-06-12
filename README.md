@@ -1,4 +1,4 @@
-# TRABALHO 01 : Título do trabalho
+# TRABALHO 01 : Vagas Dev-ES
 Trabalho desenvolvido durante a disciplina de BD
 
     O referido projeto poderá ser:
@@ -60,23 +60,57 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ### 5	MODELO CONCEITUAL<br>
 #### 5.1 NOTACAO ENTIDADE RELACIONAMENTO
 ![Alt text](https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/Imagens/VagasConceitual.png "Modelo Conceitual")
-    
-     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de Projeto)
+
+#### 5.2 NOTACAO UML
+![Alt text](https://github.com/joseslima/Topicos-Trabalho-BD2/blob/master/Imagens/ClassesProjeto.png "Modelo UML")
 
 #### 5.3 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
     
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    Campo Endereço:  Apesar de tanto Contratante quanto Desenvolvedor terem o campo "Endereço", eles não são obtidos por herança da tabela Pessoa pois são dados obtidos de formas diferentes e de estruturas diferentes. Os dados do Contratante serão obtidos através do sistema de cadastro, utilizando de CEP, Numero e Complemento. Já os dados do Desenvolvedor virão através da API do GitHub, onde o endereço não é obrigatório e se trata de uma String sem padrão, escrita pelo próprio usuário.
+    
+    Tabela de Pessoa: Decidimos criar uma tabela de Pessoa, que receberá apenas Nomes, tanto de Desenvolvedores quanto Contratantes.
 
 #### 5.4 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    Pessoa: Tabela que armazena nomes de contratante e de desenvolvedores
+        Nome: Campo que armazena o nome da pessoa cadastrada.
+        
+    Contato: Tabela que armazena o contato de uma determinada pessoa o seu tipo
+        Contato: Campo que armazena a String de contato.
+        
+    TipoContato: Tipos de Contato disponiveis.
+        Nome: Campo que armazena o nome do tipo de contato (Email, Telefone).
+        
+    Contratante: Tabela que armazena contratantes cadastrados ao sistema.
+        CNPJ: Campo que armazena o CNPJ da empresa contratante.
+        Descricao: Campo que armazena uma breve descrição sobre o contratante.
+        
+    Endereço: Tabela que armazena o endereço do contratante.
+        Cep: Campo que armazena o CEP do endereço.
+        Número: Campo que armazena o número do endereço.
+        Complemento: Campo que armazena o Complemento do endereço.
+    
+    Desenvolvedor: Tabela que armazena Desenvolvedores.
+        Biografia: Campo que armazena uma pequena biografia sobre o desenvolvedor.
+        Local: Campo que armazena o endereço do  Desenvolvedor.
+        GitHub: Nome GitHub do desenvolvedor.
+        
+    Vaga: Tabela que armazena Vagas.
+        Titulo: Titulo da vaga.
+        Descrica: Breve descrição sobre a vaga.
+        ComoCandidatar: Descrição breve do processo de candidatura para essa vaga.
+        Alocado: Campo Booleano para definir se a vaga é alocada ou Home Ofice.
+        Salário: Valor de salário.
+        
+    Issue: Tabela que armazena Issues criadas em repositórios.
+        Numero: Numero dessa Issue na API GitHub.
+    
+    Repositório: Tabela que armazena repositórios.
+        Nome: Nome do repositório na API do GitHub.
+    
+   
 
 ### 6	MODELO LÓGICO<br>
 ### 7	MODELO FÍSICO<br>
