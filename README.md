@@ -147,7 +147,8 @@ Vaga:
 OBS: Incluir para os tópicos 9.2 e 9.3 as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 
 #### 9.2	SELECT DAS TABELAS COM PRIMEIROS 10 REGISTROS INSERIDOS <br> 
-    Data de Entrega: (Data a ser definida)
+    Prints dos primeiros 10 selects das principais tabelas:
+    https://github.com/joseslima/Topicos-Trabalho-BD2/tree/master/Imagens/10PrimeirosSelects
 <br>
 
 #### 9.3	SELECT DAS VISÕES COM PRIMEIROS 10 REGISTROS DA VIEW <br>
