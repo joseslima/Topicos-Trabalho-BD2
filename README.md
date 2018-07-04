@@ -151,14 +151,18 @@ OBS: Incluir para os tópicos 9.2 e 9.3 as instruções SQL + imagens (print da 
 <br>
 
 #### 9.3	SELECT DAS VISÕES COM PRIMEIROS 10 REGISTROS DA VIEW <br>
-        a) Descrição da view sobre que grupos de usuários (operacional/estratégico) <br>
-        e necessidade ela contempla.
-        b) Descrição das permissões de acesso e usuários correlacionados (após definição <br>
-        destas características)
-    Data de Entrega: (Data a ser definida)
-        c) as funcionalidades informadas no minimundo ou nos mockups(protótipos), que representarem 
-        views do sistema (relatórios, informações disponíveis para os usuários, etc) devem estar 
-        presentes aqui. 
+      Link dos prints das views:
+        https://github.com/joseslima/Topicos-Trabalho-BD2/tree/master/Imagens/Views
+        
+      Descrição:
+      
+      Vaga_Info: Essa view é de nivel tanto operacional quanti tático. Através delas o nosso sistema terá acesso as principais
+      informações das Vagas com facilidade, e também serão mais faceis análises dos principais tipos de vagas criadas e suas caracteristicas.
+      
+      Contratante_info: Essa view é responsável por mostrar os principais dados do contratante. Será usada pelo software na hora
+      de montar um objeto Contratante. View de nível Operacional.
+      
+      Contato_pessoa: View de nível Operacional, que relaciona pessoas com seus respectivos contatos.
 <br>
 
 #### 9.4	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>
