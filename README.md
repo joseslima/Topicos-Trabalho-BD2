@@ -148,13 +148,11 @@ OBS: Incluir para os tópicos 9.2 e 9.3 as instruções SQL + imagens (print da 
 
 #### 9.2	SELECT DAS TABELAS COM PRIMEIROS 10 REGISTROS INSERIDOS <br> 
     Prints dos primeiros 10 selects das principais tabelas:
-    https://github.com/joseslima/Topicos-Trabalho-BD2/tree/master/Imagens/10PrimeirosSelects
 <br>
+    https://github.com/joseslima/Topicos-Trabalho-BD2/tree/master/Imagens/10PrimeirosSelects
 
-#### 9.3	SELECT DAS VISÕES COM PRIMEIROS 10 REGISTROS DA VIEW <br>
-      Link dos prints das views:
-        https://github.com/joseslima/Topicos-Trabalho-BD2/tree/master/Imagens/Views
-        
+
+#### 9.3	SELECT DAS VISÕES COM PRIMEIROS 10 REGISTROS DA VIEW <br>      
       Descrição:
       
       Vaga_Info: Essa view é de nivel tanto operacional quanti tático. Através delas o nosso sistema terá acesso as principais
@@ -165,6 +163,10 @@ OBS: Incluir para os tópicos 9.2 e 9.3 as instruções SQL + imagens (print da 
       
       Contato_pessoa: View de nível Operacional, que relaciona pessoas com seus respectivos contatos.
 <br>
+ https://github.com/joseslima/Topicos-Trabalho-BD2/tree/master/Imagens/Views
+
+
+
 
 #### 9.4	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>
         Detalhamento sobre funcionalidade de cada código.
