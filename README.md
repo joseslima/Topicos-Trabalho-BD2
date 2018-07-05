@@ -170,11 +170,27 @@ OBS: Incluir para os tópicos 9.2 e 9.3 as instruções SQL + imagens (print da 
 
 #### 9.4	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>
         Detalhamento sobre funcionalidade de cada código.
-        a) Objetivo
-        b) Código do objeto (função/trigger/asserção)
-        c) exemplo de dados para aplicação
-        d) resultados em forma de tabela/imagem
-<br>
+    
+        
+        Trigger: pontua()
+            Objetivo: Aumentar 1 ponto da pontuação do desenvolvedor que for favoritado para alguma vaga.
+            
+            código: 
+            create or replace function pontua() returns trigger as '
+            	begin 
+		            update desenvolvedor set pontuacao = 1 + ( 
+			            select pontuacao from desenvolvedor where id = new.fk_desenvolvedor_id
+		            ) where id = new.fk_desenvolvedor_id;
+	        	return new;
+	            end; ' language plpgsql;
+
+
+           create trigger pontua
+           before insert 
+           on favorito
+           for each row
+           execute procedure pontua();
+
 
 #### 9.5	Administração do banco de dados<br>
         Descrição detalhada sobre como serão executadas no banco de dados as <br>
